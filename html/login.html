@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Ecconovibes</title>
+
+    <link rel="stylesheet" href="../css/login-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Login Form -->
+      <div class="login-container" id="login-form">
+        <h1>Login</h1>
+        <br />
+        <label for="username"></label>
+        <input type="text" id="username" placeholder="Username" />
+        <br />
+        <br />
+        <label for="password"></label>
+        <input type="password" id="password" placeholder="Password" />
+        <br />
+        <span id="errorMessage" style="color: red"></span>
+        <br />
+        <input type="submit" value="Login" onclick="loginUser()" />
+        <br />
+        <p>If you don't have an account,</p>
+        <a type="button" onClick="moveToSignUp()">Sign Up</a>
+      </div>
+
+      <!-- Create Account-->
+      <div class="sign-up-container" id="sign-up-form">
+        <h1>Create Account</h1>
+        <label for="usernamee"></label>
+        <input type="text" id="usernamee" placeholder="Name" />
+        <br />
+        <br />
+        <label for="passwordd"></label>
+        <input type="password" id="passwordd" placeholder="Create password" />
+        <br />
+        <br />
+        <label for="email"></label>
+        <input type="text" id="email" placeholder="Email" /><br />
+        <br />
+        <label for="phone"></label>
+        <input type="number" id="phone" placeholder="Phone no." /><br />
+        <span id="error" style="color: red"></span>
+        <br />
+        <input type="submit" value="Create" onclick="signUpSubmit()" />
+        <p>If you already have an account,</p>
+        <a type="button" onClick="moveToLogin()">Login</a>
+      </div>
+    </div>
+    <script src="../js/login-script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url(../img/background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login-container,
+.sign-up-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'] {
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+input[type='submit'],
+input[type='button'] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+input[type='submit']:hover,
+input[type='button']:hover {
+  background-color: #0056b3;
+}
+
+#error,
+#errorMessage {
+  font-size: 0.8rem;
+}
+
+p,
+a {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  font-weight: 700;
+  color: #0056b3;
+  cursor: pointer;
+}
+
+#login-form,
+#sign-up-form {
+  display: none;
+}
+
+/* Initially display login form */
+#login-form {
+  display: block;
+}
+
+#login-form span,
+#sign-up-form span {
+  color: red;
+}
