@@ -7,51 +7,61 @@
     <link rel="stylesheet" href="../css/home-styles.css" />
   </head>
   <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <div class="logo"><a href="home.html">EcconoVibes</a></div>
-      <ul class="nav-links">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a class="logout-btn" href="index.html">Logout</a></li>
-      </ul>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero">
-      <h1>Welcome to EcconoVibes</h1>
-      <p>Explore Something Here</p>
-    </section>
-
-    <!-- Main Content -->
-    <section class="main-content">
-      <h2>Articles</h2>
-      <div class="articles-container">
-        <div class="article">
-          <h3>Title 1</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum
-            architecto explicabo aspernatur ipsa qui, quis ut at ullam ipsam
-            cumque dolore blanditiis possimus delectus.
-          </p>
-          <a class="btn" href="article1.html">Learn More</a>
+    <header>
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <div class="logo"><a href="home.html">EcconoVibes</a></div>
+        <div class="menu-icon">
+          <img src="../img/menu.svg" id="menu-icon" alt="Menu Icon" />
         </div>
-        <div class="article">
-          <h3>Title 2</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
-            consectetur asperiores temporibus quam quibusdam reprehenderit
-            beatae, aspernatur.
-          </p>
-          <a class="btn" href="article2.html">Learn More</a>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">Tentang</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+          <li><a class="logout-btn" href="login.html">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Selamat Datang di EcconoVibes</h1>
+        <p>Jelajahi Sesuatu di Sini</p>
+      </section>
+
+      <!-- Main Content -->
+      <section class="main-content">
+        <h2>Artikel</h2>
+        <div class="articles-container">
+          <div class="article">
+            <h3>Sejarah Uang</h3>
+            <p>
+              Sejarah uang dimulai sejak manusia mulai melakukan perdagangan.
+              Pada awalnya, sistem barter digunakan untuk memenuhi kebutuhan
+              sehari-hari.
+            </p>
+            <a class="btn" href="article1.html">Pelajari Lebih Lanjut</a>
+          </div>
+          <div class="article">
+            <h3>Ekonomi</h3>
+            <p>
+              Ekonomi merupakan ilmu yang mempelajari bagaimana mengelola sumber
+              daya yang terbatas untuk memenuhi kebutuhan dan keinginan mereka
+              yang tak terbatas.
+            </p>
+            <a class="btn" href="article2.html">Pelajari Lebih Lanjut</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>
       <p>Copyright EcconoVibes 2024</p>
     </footer>
+
+    <!-- NavBar Script -->
+    <script src="../js/navbar-script.js"></script>
   </body>
 </html>

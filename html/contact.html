@@ -8,42 +8,52 @@
   </head>
 
   <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <div class="logo"><a href="home.html">EcconoVibes</a></div>
-      <ul class="nav-links">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a class="logout-btn" href="index.html">Logout</a></li>
-      </ul>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero">
-      <h1>Contact Us</h1>
-    </section>
-
-    <!-- Main Content -->
-    <section class="main-content">
-      <h2>Find Us on Here</h2>
-      <div class="articles-container">
-        <div class="article">
-          <img src="../img/phone.svg" alt="phone-icon" />
-          <p>(+62)895-4224-59929</p>
-          <a class="btn" href="tel:+62895422459929">Learn More</a>
+    <header>
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <div class="logo"><a href="home.html">EcconoVibes</a></div>
+        <div class="menu-icon">
+          <img src="../img/menu.svg" id="menu-icon" alt="Menu Icon" />
         </div>
-        <div class="article">
-          <img src="../img/mail.svg" alt="mail-icon" />
-          <p>aulia.widyarini@gmail.com</p>
-          <a class="btn" href="mailto:aulia.widyarini@gmail.com">Learn More</a>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">Tentang</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+          <li><a class="logout-btn" href="login.html">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Kontak Kami</h1>
+      </section>
+
+      <!-- Main Content -->
+      <section class="main-content">
+        <h2>Temukan Kami Disini</h2>
+        <div class="button-container">
+          <div class="button">
+            <img src="../img/phone.svg" alt="phone-icon" />
+            <p>(+62)881-8556-603</p>
+            <a class="btn" href="tel:+628818556603">Learn More</a>
+          </div>
+          <div class="button">
+            <img src="../img/mail.svg" alt="mail-icon" />
+            <p>arsil.anzil@gmail.com</p>
+            <a class="btn" href="mailto:arsil.anzil@gmail.com">Learn More</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>
       <p>Copyright EcconoVibes 2024</p>
     </footer>
+
+    <!-- NavBar Script -->
+    <script src="../js/navbar-script.js"></script>
   </body>
 </html>
